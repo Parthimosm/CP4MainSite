@@ -35,21 +35,33 @@ li a {
 	
 }
 
-.hover a:hover {
+   
+li:hover {
     background-color: #111;
-	background-attachment:#00cc00;
+	
 }
 .dropdown {
-    position: relative;
-    display: inline-block;
-	position:relative;
+    float:left;
+    display:block;
+	
+	
 }
 
 .dropdown-content {
     display: none;
-    position:relative;
+    position:absolute;
+	right: auto;
+	left:1518px;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
 }
