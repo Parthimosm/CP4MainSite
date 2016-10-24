@@ -60,13 +60,58 @@ li:hover {
     display: block;
 }
 
-.jumbotron {
+.jumbotron-curves-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.jumbotron{
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
 }
+
+.jumbotron-curves-all{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  border-radius: 15px 15px 15px 15px;
+}
+.jumbotron-curves-top{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.jumbotron-curves-right{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.jumbotron-curves-left{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  border-radius: 15px 0px 0px 15px;
+}
+
 .half{
 	height: 200px;
     width: 50%;
@@ -81,6 +126,17 @@ li:hover {
  
 }
 
+.contain-left{
+	float:left; 
+	width: 49%;
+	
+}
+
+.contain-right{
+	float:right; 
+	width: 49%;
+	
+}
 
 .button {
   display: inline-block;
@@ -121,3 +177,32 @@ li:hover {
   opacity: 1;
   right: 0;
 }
+
+.footer {
+	background-color:#333;
+	color:white;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	overflow: auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
