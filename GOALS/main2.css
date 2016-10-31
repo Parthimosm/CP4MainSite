@@ -1,0 +1,17 @@
+.dropdown-pers {
+    float:left;
+    display:block;
+	
+	
+}
+
+.dropdown-content-pers {
+    display: none;
+    position:absolute;
+	right: auto;
+	left:1518px;
+}
+
+.dropdown-pers:hover .dropdown-content-pers:hover {
+    display: block;
+}

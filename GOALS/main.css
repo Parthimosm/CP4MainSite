@@ -42,23 +42,7 @@ li:hover {
 	color:white;
 	
 }
-.dropdown-pers {
-    float:left;
-    display:block;
-	
-	
-}
 
-.dropdown-content-pers {
-    display: none;
-    position:absolute;
-	right: auto;
-	left:1518px;
-}
-
-.dropdown-pers:hover .dropdown-content-pers {
-    display: block;
-}
 
 .jumbotron-curves-bottom {
   padding-top: 30px;
@@ -187,6 +171,24 @@ li:hover {
 	overflow: auto; 
 }
 
+
+.dropdown-pers {
+    float:left;
+    display:block;
+	
+	
+}
+
+.dropdown-content-pers {
+    display: none;
+    position:absolute;
+	right: auto;
+	left:1518px;
+}
+
+.dropdown-pers:hover .dropdown-content-pers {
+    display: block;
+}
 
 
 
