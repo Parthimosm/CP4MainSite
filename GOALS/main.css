@@ -22,11 +22,12 @@ li a {
     text-decoration: none;
 }
 
-
-#right{
-	float:right;
+/*
+.fixed{
+	position:fixed;
+	width:100%;
 }
-
+*/
 .hover{
 	display: block;
     color: white;
@@ -43,22 +44,25 @@ li:hover {
 	
 }
 .dropdown-pers {
-    float:left;
+    float:right;
     display:block;
 	
 	
 }
 
 .dropdown-content-pers {
-    display: none;
+    display: block;
     position:absolute;
 	right: auto;
 	left:1518px;
 }
 
-.dropdown-pers:hover .dropdown-content-pers {
+.dropdown-pers:hover .dropdown-content-pers{
     display: block;
 }
+
+
+
 
 .jumbotron-curves-bottom {
   padding-top: 30px;
@@ -127,14 +131,17 @@ li:hover {
 }
 
 .contain-left{
+	position:;
 	float:left; 
-	width: 49%;
-	
+	width: 45%;
+	display:inline-block;
 }
 
 .contain-right{
+	position:;
 	float:right; 
-	width: 49%;
+	width: 45%;
+	display:inline-block;
 	
 }
 
@@ -182,14 +189,20 @@ li:hover {
 	background-color:#333;
 	color:white;
 	display: block;
-	margin: 0 auto;
+	margin: 0 ;
 	padding: 0;
-	overflow: auto; 
+	overflow: auto;
+	clear:both;
+	position:static;
 }
 
+.row{
+	margin-left:10px;
+}
 
-
-
+#features{
+	margin-left:10px;
+}
 
 
 
