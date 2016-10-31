@@ -43,7 +43,6 @@ li:hover {
 	color:white;
 	
 }
-<<<<<<< HEAD
 .dropdown-pers {
     float:right;
     display:block;
@@ -61,9 +60,6 @@ li:hover {
 .dropdown-pers:hover .dropdown-content-pers{
     display: block;
 }
-=======
-
->>>>>>> origin/master
 
 
 
@@ -204,45 +200,6 @@ li:hover {
 	margin-left:10px;
 }
 
-<<<<<<< HEAD
 #features{
 	margin-left:10px;
 }
-=======
-.dropdown-pers {
-    float:left;
-    display:block;
-	
-	
-}
-
-.dropdown-content-pers {
-    display: none;
-    position:absolute;
-	right: auto;
-	left:1518px;
-}
-
-.dropdown-pers:hover .dropdown-content-pers {
-    display: block;
-}
-
-
-
->>>>>>> origin/master
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
