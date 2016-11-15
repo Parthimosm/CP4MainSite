@@ -22,12 +22,6 @@ li a {
     text-decoration: none;
 }
 
-/*
-.fixed{
-	position:fixed;
-	width:100%;
-}
-*/
 
 li:hover {
     background-color: #111;
@@ -59,6 +53,11 @@ li.dropdown {
     display: block;
     text-align: left;
 }
+
+#signup{
+	left: 1236px;
+}
+
 /*this highlights the background when you hover over it*/
 .dropdown-content a:hover {background-color: #e6e6e6}
 
@@ -78,7 +77,7 @@ li.dropdown {
   background-color: #eee;
 }
 
-/*the jumbotrons with curves have curved edges*/
+/*the jumbotron tages with curves have curved edges*/
 .jumbotron-curves-bottom {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -133,7 +132,7 @@ li.dropdown {
  
 }
 
-/*these are t0 float a div left or right*/
+/*these are to float a div left or right*/
 .contain-left{
 	position:;
 	float:left; 
@@ -210,4 +209,35 @@ li.dropdown {
 
 #features{
 	margin-left:10px;
+}
+
+form{
+	
+}
+
+/*following partially copied from w3 schools*/ 
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	color:#888;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
 }
