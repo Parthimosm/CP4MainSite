@@ -1,10 +1,22 @@
 <!Doctype html>
 <html>
 <head>
+<script type = "text/javascript">
+		function confirmTerms() {
+			var subscribe = confirm("AGREE TO THE TERMS AND CONDITIONS?");
+			if (subscribe == true) {
+				alert("Thank you for signing up!");
+			} else {
+				alert("You're missing out!");
+			}	
+		}
+	</script>
 <title>MyAgenda</title>
 
 <link rel="Stylesheet" href="main.css">
 
+
+	
 </head>
 <body>
 <!--navbar-->
@@ -33,17 +45,17 @@
 			<div class="container">
 			<form>
 				First Name:<br>
-				<input type="text" name="firstname" value="Ex: Jerry"><br>
+				<input type="text" name="firstname" placeholder="Ex: Jerry"><br>
 				Last Name:<br>
-				<input type="text" name="Lastmane" Value="Ex: Dingleman"><br>
+				<input type="text" name="Lastmane" placeholder="Ex: Dingleman"><br>
 				User Name:<br>
-				<input type="text" name="Usernname" Value="Ex: TheBoyWonder"><br>
+				<input type="text" name="Usernname" placeholder="Ex: TheBoyWonder"><br>
 				Email:<br>
-				<input type="text" name="Email" value="Ex: JerryD@mail.com"><br>
+				<input type="text" name="Email" placeholder="Ex: JerryD@mail.com"><br>
 				Password:<br>
-				<input type="text" name="Password" value="Ex: MyPassword"><br>
-				<input type="checkbox" name="Terms" checked="checked">I Agree to the <a href="termsandconditions.html">Terms and conditions.</a><br>
-				<input type="submit" value="Submit">
+				<input type="password" name="Password" placeholder="Ex: MyPassword"><br>
+				<a href="termsandconditions.html">Terms and conditions</a><br>
+				<button class="termsAndConditions" onclick="confirmTerms()"> Submit </button> 
 					
 			</form>
 			</div>
@@ -51,6 +63,8 @@
 		</div>
 	</div>
 	</nav>
+	
+
 	
 	<!--Footer-->
 	<br>	
