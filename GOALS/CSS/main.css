@@ -1,0 +1,379 @@
+body{
+	background-color: #66a3ff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.hover{
+    float: left;
+}
+
+.hover a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.hover:hover {
+    background-color: #111;
+	color:white;
+	
+}
+/*this is what will display before hovering*/
+li.dropdown {
+    display: inline-block;
+	float:right;
+	margin:0;
+	padding:0;	
+}
+/*this is the content of the dorpdown*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	right: auto;
+	left: 1215px;
+}
+/*this is for the text in the dropdown*/
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#signup{
+	left: 1215px;
+}
+#login{
+	left: 1236px
+}
+
+/*this highlights the background when you hover over it*/
+.dropdown-content a:hover {background-color: #e6e6e6}
+
+/*this makes the dropdown appear when you hover over it*/
+.dropdown:hover .dropdown-content {
+    display: block;
+	transition: all 0.5s;
+	
+}
+
+/*jumbotron is used to highlight something*/
+.jumbotron{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
+
+/*the jumbotron tages with curves have curved edges*/
+.jumbotron-curves-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.jumbotron-curves-all{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  border-radius: 15px 15px 15px 15px;
+}
+.jumbotron-curves-top{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.jumbotron-curves-right{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.jumbotron-curves-left{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  border-radius: 15px 0px 0px 15px;
+}
+
+/*this contains a div and adds padding and margin around it*/
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:  ;
+ 
+}
+
+/*these are to float a div left or right*/
+.contain-left{
+	position:;
+	float:left; 
+	width: 49%;
+	height:50%:
+	display:inline-block;
+}
+
+.contain-right{
+	position:;
+	float:right; 
+	width: 49%;
+	height:50%:
+	display:inline-block;
+	
+}
+
+/*this is for the sign up button*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content:">>";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -60px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 45px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*this is for the footer of the page*/
+.footer {
+	background-color:#333;
+	color:white;
+	display: block;
+	margin: 0 ;
+	padding: 0;
+	overflow: auto;
+	clear:both;
+	position:static;
+}
+
+
+.row{
+	margin-left:10px;
+}
+
+#features{
+	margin-left:10px;
+}
+
+form{
+	
+}
+
+/*following partially copied from w3 schools*/ 
+input[type=text], input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	color:#888;
+}
+
+.termsAndConditions {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.termsAndConditions:hover {
+    background-color: #45a049;
+}
+
+.terms-and-conditions{
+	clear:left;
+}
+
+.carousel {
+    position: relative;
+    
+    margin-top: 26px;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+	height:325px;
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.carousel-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 2%;
+}
+
+.carousel-control.next {
+    right: 2%;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carousel-bullet {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.carousel-bullet:hover {
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #428bca;
+}
+
+#title {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+
+
+
+
+
+
+
+
+
