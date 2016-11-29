@@ -33,7 +33,8 @@ li.dropdown {
     display: inline-block;
 	float:right;
 	margin:0;
-	padding:0;	
+	padding:0;
+		
 }
 /*this is the content of the dorpdown*/
 .dropdown-content {
@@ -43,7 +44,7 @@ li.dropdown {
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	right: auto;
-	left: 1215px;
+	
 }
 /*this is for the text in the dropdown*/
 .dropdown-content a {
@@ -54,11 +55,12 @@ li.dropdown {
     text-align: left;
 }
 
-#signup{
-	left: 1215px;
+#whiteText{
+	color:white;
 }
-#login{
-	left: 1236px
+
+.phone-button{
+	float:right;
 }
 
 /*this highlights the background when you hover over it*/

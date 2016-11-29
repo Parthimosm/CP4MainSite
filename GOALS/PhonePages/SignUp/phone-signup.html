@@ -1,25 +1,28 @@
 <!Doctype html>
 <html>
 <head>
+
 <title>MyAgenda</title>
 
-<link rel="Stylesheet" href="../CSS/main.css">
+<link rel="Stylesheet" href="../../CSS/main.css">
+<script src="../../Script/javascript/jScript.js"></script>
 
+	
 </head>
 <body>
 <!--navbar-->
 <nav>
 <ul class="fixed">
-	<li class="hover"><a href="index.html">Home</a></li>
+	<li class="hover"><a href="../index.html">Home</a></li>
 	<li class="hover"><a href="#">MyPage</a></li>
 	<li class="hover"><a href="#">Friends</a></li>
 	<li class="hover"><a href="#">Manage Files</a></li>
-	<li class="hover"><a href="SignUp/signup.html">Sign Up</a></li>
+	<li class="hover"><a href="#">Sign Up</a></li>
 	<!--dropdown-->
 	<li class="dropdown hover" style="background-color:green;"><a href="#">Account &#x25BD </a>
-	<div class="dropdown-content" id="login">  
+	<div class="dropdown-content" id="signup">  
 		<a href="#">Settings</a> 
-		<a href="#">Login</a>
+		<a href="../login.html">Login</a>
 	</div>
 	</li>
 	</ul>
@@ -31,25 +34,33 @@
 			<br>
 			<br>
 			<div class="container">
-			<form>		
+			<form>
+				First Name:<br>
+				<input type="text" name="firstname" placeholder="Ex: Jerry"><br>
+				Last Name:<br>
+				<input type="text" name="Lastmane" placeholder="Ex: Dingleman"><br>
 				User Name:<br>
 				<input type="text" name="Usernname" placeholder="Ex: TheBoyWonder"><br>
+				Email:<br>
+				<input type="text" name="Email" placeholder="Ex: JerryD@mail.com"><br>
 				Password:<br>
 				<input type="password" name="Password" placeholder="Ex: MyPassword"><br>
-				<a href="index.html">
-				</form>
-				<button class="termsAndConditions">Submit</button>	
-				</a>
-			
+				<a href="termsandconditions.html">Terms and conditions</a><br>
+				<button class="termsAndConditions" onclick="confirmTerms()"> Submit </button> 
+					
+			</form>
 			</div>
 		</center>
 		</div>
 	</div>
+	</nav>
+	
+
 	
 	<!--Footer-->
 	<br>	
 	<div class="footer"> <div class="container"> <h5>&#9400; Parthimos Industries</h5>
 	</div>
-	
+
 </body>
-</html> 
+</html>
