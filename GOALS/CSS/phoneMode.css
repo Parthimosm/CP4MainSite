@@ -9,23 +9,51 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
+
 li{
 	list-style-type: none;
 }
 
-.hover{
-    
+nav{
+	font-size: 150%;
 }
 
-.phone{
-
+.dropdown-phone{
+	
  
 }
 
-.hover{
-
+.dropdown-content-phone{
+	font-size: 150%;
+}
+	
+.drpop-div-phone{
+	display:none;
 }
 
+.dropdown-phone:hover .drpop-div-phone{
+	display:block;
+}
+.hover{
+	display: block;
+    color:white;
+    padding: 8px 0px;
+    text-decoration: none;
+	
+	text-align:center;
+}
+
+.nav{
+	text-decoration: none; 
+	color:white;
+	border-top:solid;
+	
+}
+
+
+.padding-bottom{
+	padding-bottom:20px;
+}
 
 .hover:hover {
 
