@@ -19,21 +19,18 @@ nav{
 }
 
 .dropdown-phone{
-	
- 
+	position:relative;
 }
 
-.dropdown-content-phone{
-	font-size: 150%;
-}
-	
 .drpop-div-phone{
 	display:none;
 }
 
-.dropdown-phone:hover .drpop-div-phone{
+.drpop-div-phone a{
+	font-size: 150%;
 	display:block;
 }
+
 .hover{
 	display: block;
     color:white;
