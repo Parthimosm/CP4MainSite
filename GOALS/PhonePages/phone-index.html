@@ -4,14 +4,23 @@
 <title>MyAgenda</title>
 
 <link rel="Stylesheet" href="../CSS/phoneMode.css">
-<script src="../Script/javascript/phoneMode.js"></script>
+<script src="../Script/javascript/phoneMode.js">
+function hide(){
+document.getElementById('drpop-div-phone').style.visibility = 'hidden';
+if(document.getElementById('drpop-div-phone').style.visibility == 'hidden'){
+	document.getElementById('drpop-div-phone').style.visibility == 'visible'; 
+}
+
+}
+
+</script>
 
 </head>
 <body>
 <!--navbar-->
 <nav>
 <ul class="fixed">
-	<li class="dropdown-phone hover"> <nav>Menu &#x25BD </nav> 
+	<li class="dropdown-phone hover"> <button onclick="hide()">Menu &#x25BD </button>
 		<div id="drpop-div-phone">
 		<a class="hover nav dropdown-content-phone" href="#">Home</a>
 		<a class="hover nav dropdown-content-phone" href="#">MyPage</a>
