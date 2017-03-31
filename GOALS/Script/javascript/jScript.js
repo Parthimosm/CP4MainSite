@@ -7,10 +7,29 @@ function confirmTerms() {
 		}	
 	}
 
-var Welcome = document.getElementById("Username");
-function UserName(){
-	
-var Text = document.getElementsByName("Usernname")[0].value;
 
-document.getElementById("Username").innerHTML = "Welcome" + Text
+
+function Login(){
+	/* defines username*/
+	var username = "Parthimosm"
+	/*defines password*/
+	var pass = "pass"
+	/*next two makes prompts and checks if inputed value is equal to correct value*/
+	var userNma = prompt("Please input your user name") === username;
+	var passw = prompt("Please input your password") === pass;
+	
+	/* checks if userNma and passw are true, if they are it changes the html element*/
+	if(userNma){
+		if(passw){
+			console.log(username)
+			document.getElementById("Username").innerHTML = "Welcome" + " " + username;
+		}else{
+			alert("wrong password");
+		}
+	}else{
+		alert("wrong username");
+	}
+	
+	
 }
+
