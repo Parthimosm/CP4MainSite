@@ -5,7 +5,8 @@
 <title>MyAgenda</title>
 
 <link rel="Stylesheet" href="../../CSS/main.css">
-<script src="../../Script/javascript/jScript.js"></script>
+<!-- <script src="../../Script/javascript/jScript.js"></script> -->
+<script src="../../Script/javascript/userCreator.js"></script>
 
 	
 </head>
@@ -28,6 +29,10 @@
 	<li class="hover phone-button"><a href="../../PhonePages/phone-index.html">&#128241;</a></li>
 	</ul>
 	
+	
+	
+	
+	
 	<div class="">
 		<div class="jumbotron-curves-bottom">
 		<center>
@@ -37,17 +42,17 @@
 			<div class="container">
 			<form>
 				First Name:<br>
-				<input type="text" name="firstname" placeholder="Ex: Jerry"><br>
+				<input id ="fn" type="text" name="firstname" placeholder="Ex: Jerry"><br>
 				Last Name:<br>
-				<input type="text" name="Lastmane" placeholder="Ex: Dingleman"><br>
+				<input id = "ln" type="text" name="Lastmane" placeholder="Ex: Dingleman"><br>
 				User Name:<br>
-				<input type="text" name="Usernname" placeholder="Ex: TheBoyWonder"><br>
+				<input id = "un" type="text" name="Usernname" placeholder="Ex: TheBoyWonder"><br>
 				Email:<br>
-				<input type="text" name="Email" placeholder="Ex: JerryD@mail.com"><br>
+				<input id = "email" type="text" name="Email" placeholder="Ex: JerryD@mail.com"><br>
 				Password:<br>
-				<input type="password" name="Password" placeholder="Ex: MyPassword"><br>
+				<input id = "pass" type="password" name="Password" placeholder="Ex: MyPassword"><br>
 				<a href="termsandconditions.html">Terms and conditions</a><br>
-				<button class="termsAndConditions" onclick="confirmTerms()"> Submit </button> 
+				<button class="termsAndConditions" onclick="profcreate()"> Submit </button> 
 					
 			</form>
 			</div>
